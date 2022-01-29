@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="https://fonts.google.com/specimen/Roboto">
+    <link rel="stylesheet" href="yati.css">
+    <style>
+        p{
+            font-size: large;
+            font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+        }
+        *{
+box-sizing: border-box;
+        }
+        .container{
+            width: 900px;
+            border: 3px solid rgb(0, 128, 90);
+            margin: 33px auto;
+            background-color: rgb(9, 28, 94);
+        }
+        .item{
+            border: 3px solid grey;
+            margin: 12px 3px;
+            padding: 12px 3px;
+            background: rgb(212, 13, 13);
+        }
+        #FRUITS{
+            float: left;
+           width: 48%;
+        }
+        #COMPUTER{
+            float: right;
+            width: 48%;
+        }
+        #STATINTONARY{
+           /* float: left;*/
+            clear: both;
+            clear:left ;
+            width: 100%;
+        }
+        p,h3{
+           /* text-align: right;
+            text-align: left;
+            text-align: center;*/ 
+            text-align: justify;
+        }
+        h1{
+            margin:23 px auto;
+            width: 455px;
+        }
+    </style>
+</head>
+<body>
+    
+    <div class="container">
+        <h1 style="color: blueviolet;">Apna store</h1>
+        <div id="FRUITS" class ="item">
+            <h3>Fruits</h3>
+            <p id="Fruitpara" class="para">a fruit is the fleshy or dry ripened ovary of a flowering plant, enclosing the seed or seeds. Apricots, bananas, and grapes, as well as bean pods, corn grains, tomatoes, cucumbers, and (in their shells) acorns and almonds, are all technically fruit</p>
+        </div>
+        <div id="COMPUTER" class ="item">
+            <h3>Computer</h3>
+            <p id="computerpara" class="para">A computer is a digital electronic machine that can be programmed to carry out sequences of arithmetic or logical operations (computation) automatically. Modern computers can perform generic sets of operations known as programs</p>
+        </div>
+        <div id="STATINTONARY" class ="item">
+            <h3>Stationary</h3>
+            <p id="stationarypara" class="para">Stationery is a mass noun referring to commercially manufactured writing materials, including cut paper, envelopes, writing implements, continuous form paper, and other office supplies.[1] Stationery includes materials to be written on by hand (e.g., letter paper) or by equipment such as computer printers.</p>
+        </div>
+    </div>
+</body>
+</html>
